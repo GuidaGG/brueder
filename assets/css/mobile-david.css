@@ -1,0 +1,207 @@
+@media screen and (max-width: 768px) {
+
+	body{
+		overflow-x: hidden; 
+	}
+
+	.page-title{
+		pointer-events: auto;
+	}
+
+	#page{
+		overflow-x: hidden;
+	}
+
+	.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary, .cart{
+		width: 98vw;
+	}
+
+	.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images, #main-pic, #isotope li{
+		width: 98vw;
+	}
+
+	#main-pic{
+		margin-bottom: 1vw;
+	}
+
+	.woocommerce-product-gallery__image{
+		width: 48.5vw !important;
+		margin-bottom: 1vw;
+		margin-right: 1vw !important;
+		line-height: 0;
+	}
+
+	.price, .out-of-stock, .filter-title, .filter_arrow, .cat-item, .summary > .cart > span, .single_add_to_cart_button, .product > .cart > span, .single_add_to_cart_button, .woocommerce-message, input, .woocommerce-error{
+		font-size: 10.5vw;
+		line-height: 12.5vw;
+	}
+
+	.cart-empty, .wc-backward, #newsletter1 > h2, .cat-item{
+		font-size: 10.5vw !important;
+		line-height: 12.5vw !important;
+	}
+
+	#newsletter1{
+		margin-top: 15vw !important;
+	}
+
+	.related{
+		display: none !important;
+	}
+
+	.filter, .summary > .cart > span, .product > .cart > span{
+		height: 12.5vw;
+		margin-bottom: 6vw;
+		width: auto;
+	}
+
+	.cart > .quantity-sintle-product-plus.arrow, .cart > .quantity-sintle-product-minus.arrow{
+		margin-top: -1.6vw; 
+	}
+
+	#isotope-product-page{
+		width: 100vw;
+	}
+
+	.back-shop-2, .back-shop-1 {
+		display: none;
+	}
+
+	.product_title, .quantity-sintle-product-before, .back-shop-blog, .back-shop-1, .back-shop-2, h2, h3, .product_meta, ._Subheadline, #site-header-cart, h1, .related-content > h2, .related-products > h2, .related-posts > h2{
+		font-size: 17.5vw;
+    	line-height: 18.5vw;
+	    list-style: none;
+	}
+
+	._Headline{
+		font-size: 17.5vw !important;
+    	line-height: 18.5vw !important;
+	}
+
+	#site-header-cart{
+		margin: 1vw;
+		margin-top: 0;
+	}
+
+	.onsale{
+	    font-size: 17.5vw;
+    	line-height: 17.5vw;
+
+    	padding: 1.6vw 4vw 2vw 2vw !important;
+	}
+
+	li.product, .product, li.post, .post{
+		margin-bottom: 7.5vw;
+		list-style: none;
+	}
+
+	.product > a > img, .post > a > img{
+		 width: 100%;
+    	height: auto;
+	}
+
+	p, .product-website, .p-atributes-title, .summary > small, .in-stock, #content > .product > small, .post-tags-date-author, .post-tags > a, .post-tags-date-author > span, .about-projects-li > ul > span > a, h4, .lg-textformat-parent > *, ._Default{
+		font-size: 5.5vw;
+	    line-height: 7vw;
+	    font-weight: normal;
+	}
+
+	.post-author{
+		display: none !important;
+	}
+
+	.post{
+		margin-top: 0;
+	}
+
+	.woocommerce div.product div.images .woocommerce-product-gallery__image{
+		    width: 48vw;
+    		margin-right: 0vw;
+    		margin-top: 0vw;
+    		margin-right: 2vw;
+	}
+
+	.onsale, .price{
+		padding: 0 !important;
+	}
+
+	.product{
+		margin-top: 0;
+	}
+
+	.post-tags-date-author{
+		margin-bottom: 0 !important;
+	}
+
+	.footer-navigation > ul > li, .secondary-navigation > ul > li{
+		margin-bottom: 2vw;
+		width: 98vw;
+	}
+
+	.footer-navigation:first-of-type{
+		margin-bottom: 7.5vw !important;
+	}
+
+	.secondary-navigation > ul > li > a, ._Headline, .woocommerce-loop-product__title, .product > a > p, h4, .post > a > h2, .post > a > p{
+		white-space: pre;           /* CSS 2.0 */
+		white-space: pre-wrap;      /* CSS 2.1 */
+		white-space: pre-line;      /* CSS 3.0 */
+		white-space: -pre-wrap;     /* Opera 4-6 */
+		white-space: -o-pre-wrap;   /* Opera 7 */
+		white-space: -moz-pre-wrap; /* Mozilla */
+		white-space: -hp-pre-wrap;  /* HP Printers */
+		word-wrap: break-word;      /* IE 5+ */
+	}
+
+	#newsletter{
+		max-height: 10.5vw;
+	}
+
+	.about-emails-wrapper > .about-emails > h2{
+		font-size: 5.5vw !important;
+	    line-height: 7vw !important;
+	}
+
+
+
+	.about-adresses-wrapper, .about-emails-wrapper {
+	    width: 98%;
+	    display: inline-block;
+	    vertical-align: top;
+	}
+
+	.about-adresses-wrapper, .about-thumbnail-wrapper{
+		margin: 0;
+		margin-bottom: 6vw;
+	}
+
+	.utility{
+		margin-top: 0;
+	}
+
+	.about-people-span, .about-projects-li, #isotope li {
+	    width: 98vw;
+	    display: inline-block;
+	    margin-bottom: 4vw;
+	}
+
+	.about-people-wrapper{
+		margin-bottom: 8vw;
+	}
+
+	#colophon, .related{
+		margin-top: 15vw !important;
+	}
+
+		#cn-notice-text, #cn-accept-cookie{
+		font-size: 5.5vw !important;
+	    line-height: 7vw !important;
+	}
+
+	.lg-desktop-grid .lg-row{
+		padding-left: 0vw !important;
+    	padding-right: 0vw !important;
+	}
+
+
+}
